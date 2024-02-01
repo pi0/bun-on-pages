@@ -23,6 +23,14 @@ Use `bun upgrade && bun run build` as build command
 
 when using `bun <command>` CLI, bun by default it uses Node.js when there is `#/bin/env node` shebang which is case for 99% of npm pacakge binaries. Essentially in most of cases bun is used only as package manager and Node.js as real runtime. `bun --bun` or `bun <script>` or `#/bin/env bun` are the ways to use actually use bun.
 
+## Possible Fixes
+
+Cloudflare pages builder could:
+
+- Respect Bun version in `packageManager` field
+- Install latest 1.x version of Bun
+- At least upgrade to current 1.0.25 to resolve major issues with rollup v4 support
+
 ## Logs
 
 Issue:
