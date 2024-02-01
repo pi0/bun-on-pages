@@ -1,0 +1,10 @@
+{
+  "name": "bun-on-pages",
+  "scripts": {
+    "build": "bun ./build.mjs"
+  },
+  "dependencies": {
+    "rollup": "^4.9.6"
+  },
+  "packageManager": "bun@1.0.25"
+}
