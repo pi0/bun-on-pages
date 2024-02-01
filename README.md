@@ -15,7 +15,23 @@ Sadly detected version is old (1.0.1) and `packageManager` field in `package.jso
 - Build: `bun run build`
 - Deploy dir: `dist`
 
+## Current Workarounds
+
+Use `bun upgrade && bun run build` as build command
+
+## Some more context
+
+hen using `bun <command>` CLI, bun by default it uses Node.js when there is `#/bin/env node` shebang which is case for 99% of npm pacakge binaries. Essentially in most of cases bun is used only as package manager and Node.js as real runtime. `bun --bun` or `bun <script>` or `#/bin/env bun` are the ways to use actually use bun.
+
 ## Logs
+
+Issue:
+
+```
+Detected the following tools from environment: bun@1.0.1, nodejs@18.17.1
+```
+
+Full:
 
 ```
 2024-02-01T17:43:34.572503836Z	Cloning repository...
