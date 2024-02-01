@@ -21,7 +21,7 @@ Use `bun upgrade && bun run build` as build command
 
 ## Some more context
 
-hen using `bun <command>` CLI, bun by default it uses Node.js when there is `#/bin/env node` shebang which is case for 99% of npm pacakge binaries. Essentially in most of cases bun is used only as package manager and Node.js as real runtime. `bun --bun` or `bun <script>` or `#/bin/env bun` are the ways to use actually use bun.
+when using `bun <command>` CLI, bun by default it uses Node.js when there is `#/bin/env node` shebang which is case for 99% of npm pacakge binaries. Essentially in most of cases bun is used only as package manager and Node.js as real runtime. `bun --bun` or `bun <script>` or `#/bin/env bun` are the ways to use actually use bun.
 
 ## Logs
 
